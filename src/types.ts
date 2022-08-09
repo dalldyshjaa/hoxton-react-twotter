@@ -19,4 +19,8 @@ export type Comment = {
   commentAuthor: string;
   authorId: number;
   postId: number;
+  imageReply: string;
+  likes: number;
+  replies: number;
+  retweets: number;
 };

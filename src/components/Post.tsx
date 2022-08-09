@@ -1,12 +1,14 @@
 import { LikeIcon, ReplyIcon, RetweetIcon, ShareIcon } from "./Icons";
 import { PostType, user } from "../types";
 import { useEffect, useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 type Props = {
   post: PostType;
 };
 
 export function Post({ post }: Props) {
+  // let location = useLocation();
+  // console.log(location);
   const [postAuthor, setPostAuthor] = useState<user | any>([]);
 
   useEffect(function () {

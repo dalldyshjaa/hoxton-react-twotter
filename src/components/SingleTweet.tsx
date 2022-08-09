@@ -50,39 +50,33 @@ export function SingleTweet({ author, tweet }: Props) {
       )}
       <div className="w-full   px-3 mt-6 ">
         <div className="grid grid-flow-col justify-start gap-8 items-center w-full h-12 border-y-[1px] border-[#e7e7e8ba] px-2">
-          {tweet.retweets ? (
-            <>
-              <div className="hover:underline">
-                {/* <span className=" font-bold">3</span> */}
-                <span className="ml-[5px] text-[#5d5d5dba]">
-                  <strong className="text-[#000000]">{tweet.retweets} </strong>
-                  Retweets
-                </span>
-              </div>
-            </>
-          ) : null}
-          {tweet.replies ? (
-            <>
-              <div className="hover:underline">
-                {/* <span className=" font-bold">3</span> */}
-                <span className="ml-[5px] text-[#5d5d5dba]">
-                  <strong className="text-[#000000]">{tweet.replies} </strong>
-                  Replies
-                </span>
-              </div>
-            </>
-          ) : null}
-          {tweet.likes ? (
-            <>
-              <div className="hover:underline">
-                {/* <span className=" font-bold">3</span> */}
-                <span className="ml-[5px] text-[#5d5d5dba]">
-                  <strong className="text-[#000000]">{tweet.likes} </strong>
-                  Likes
-                </span>
-              </div>
-            </>
-          ) : null}
+          <>
+            <div className="hover:underline">
+              {/* <span className=" font-bold">3</span> */}
+              <span className="ml-[5px] text-[#5d5d5dba]">
+                <strong className="text-[#000000]">{tweet.retweets} </strong>
+                Retweets
+              </span>
+            </div>
+          </>
+          <>
+            <div className="hover:underline">
+              {/* <span className=" font-bold">3</span> */}
+              <span className="ml-[5px] text-[#5d5d5dba]">
+                <strong className="text-[#000000]">{tweet.replies} </strong>
+                Replies
+              </span>
+            </div>
+          </>
+          <>
+            <div className="hover:underline">
+              {/* <span className=" font-bold">3</span> */}
+              <span className="ml-[5px] text-[#5d5d5dba]">
+                <strong className="text-[#000000]">{tweet.likes} </strong>
+                Likes
+              </span>
+            </div>
+          </>
         </div>
       </div>
       <div className="px-3">

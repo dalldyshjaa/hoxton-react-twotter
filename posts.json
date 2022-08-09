@@ -23,38 +23,12 @@
     {
       "textContent": "safasfaf",
       "author": "dalldyshjaa",
+      "postImg": "",
       "likes": 0,
       "replies": 0,
       "retweets": 0,
       "authorId": 1,
       "id": 3
-    },
-    {
-      "textContent": "Ok what now?",
-      "author": "dalldyshjaa",
-      "likes": 0,
-      "replies": 0,
-      "retweets": 0,
-      "authorId": 1,
-      "id": 4
-    },
-    {
-      "textContent": "Ok what now?",
-      "author": "dalldyshjaa",
-      "likes": 0,
-      "replies": 0,
-      "retweets": 0,
-      "authorId": 1,
-      "id": 5
-    },
-    {
-      "textContent": "asdadad",
-      "author": "dalldyshjaa",
-      "likes": 0,
-      "replies": 0,
-      "retweets": 0,
-      "authorId": 1,
-      "id": 6
     }
   ],
   "comments": [
@@ -63,7 +37,33 @@
       "body": "some comment",
       "commentAuthor": "asdsadsadasd",
       "authorId": 3,
-      "postId": 1
+      "postId": 1,
+      "imageReply": "",
+      "replies": 0,
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": 2,
+      "body": "so sus",
+      "commentAuthor": "asdsadsadasd",
+      "authorId": 1,
+      "postId": 1,
+      "imageReply": "",
+      "replies": 0,
+      "likes": 0,
+      "retweets": 0
+    },
+    {
+      "id": 3,
+      "body": "soasdadfsafsaf sus",
+      "commentAuthor": "asdsadsadasd",
+      "authorId": 3,
+      "postId": 2,
+      "imageReply": "",
+      "replies": 0,
+      "likes": 0,
+      "retweets": 0
     }
   ],
   "profiles": [
@@ -79,8 +79,8 @@
     },
     {
       "id": 1,
-      "username": "dalldyshjaa",
-      "profile": "./dalldyshjaa.jpg"
+      "username": "tupac",
+      "profile": "https://i.kym-cdn.com/photos/images/original/002/213/553/ad1.jpg"
     }
   ]
 }
