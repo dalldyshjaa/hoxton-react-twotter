@@ -2,3 +2,39 @@
   width: 26px;
   height: 26px;
 }
+.post-icons {
+  height: 34px;
+  width: 34px;
+  border-radius: 50%;
+  fill: #536471;
+  padding: 8px;
+}
+.post-icons + span {
+  color: #536471;
+  font-size: 14px;
+}
+.reply-icon-container:hover .post-icons {
+  background-color: #e1eef6;
+  fill: #43abf1;
+}
+.reply-icon-container:hover > span {
+  color: #43abf1;
+}
+.retweet-icon-container:hover .post-icons {
+  background-color: #def1eb;
+  fill: #1cc28a;
+}
+.retweet-icon-container:hover > span {
+  color: #1cc28a;
+}
+.like-icon-container:hover .post-icons {
+  background-color: #f7e0eb;
+  fill: #fc3490;
+}
+.like-icon-container:hover > span {
+  color: #fc3490;
+}
+.share-icon-container:hover .post-icons {
+  background-color: #e1eef6;
+  fill: #43abf1;
+}
