@@ -8,10 +8,12 @@
   border-radius: 50%;
   fill: #536471;
   padding: 8px;
+  transition: 0.4s;
 }
 .post-icons + span {
   color: #536471;
   font-size: 14px;
+  transition: 0.4s;
 }
 .reply-icon-container:hover .post-icons {
   background-color: #e1eef6;

@@ -1,0 +1,86 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "textContent": "asdsadsasdsad a dsadsa das asdasda ",
+      "postImg": "https://images.pexels.com/photos/4164418/pexels-photo-4164418.jpeg?auto=compress&cs=tinysrgb&w=1600",
+      "author": "typicode",
+      "authorId": 2,
+      "likes": 26,
+      "replies": 12,
+      "retweets": 30
+    },
+    {
+      "id": 2,
+      "textContent": "what what  what  what what what  ",
+      "postImg": "",
+      "author": "deez...",
+      "authorId": 3,
+      "likes": 1203,
+      "replies": 321,
+      "retweets": 67
+    },
+    {
+      "textContent": "safasfaf",
+      "author": "dalldyshjaa",
+      "likes": 0,
+      "replies": 0,
+      "retweets": 0,
+      "authorId": 1,
+      "id": 3
+    },
+    {
+      "textContent": "Ok what now?",
+      "author": "dalldyshjaa",
+      "likes": 0,
+      "replies": 0,
+      "retweets": 0,
+      "authorId": 1,
+      "id": 4
+    },
+    {
+      "textContent": "Ok what now?",
+      "author": "dalldyshjaa",
+      "likes": 0,
+      "replies": 0,
+      "retweets": 0,
+      "authorId": 1,
+      "id": 5
+    },
+    {
+      "textContent": "asdadad",
+      "author": "dalldyshjaa",
+      "likes": 0,
+      "replies": 0,
+      "retweets": 0,
+      "authorId": 1,
+      "id": 6
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "commentAuthor": "asdsadsadasd",
+      "authorId": 3,
+      "postId": 1
+    }
+  ],
+  "profiles": [
+    {
+      "id": 2,
+      "username": "typicode",
+      "profile": "https://d5nunyagcicgy.cloudfront.net/external_assets/hero_examples/hair_beach_v391182663/original.jpeg"
+    },
+    {
+      "id": 3,
+      "username": "deez...",
+      "profile": "https://images.pexels.com/photos/7429747/pexels-photo-7429747.jpeg?auto=compress&cs=tinysrgb&w=1600"
+    },
+    {
+      "id": 1,
+      "username": "dalldyshjaa",
+      "profile": "./dalldyshjaa.jpg"
+    }
+  ]
+}

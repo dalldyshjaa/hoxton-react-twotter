@@ -8,6 +8,12 @@ header {
   grid-template-rows: 1fr auto;
   grid-template-columns: 251px;
 }
+.what {
+  /* grid-template-rows: 1fr auto; */
+  /* justify-content: space-between; */
+  align-content: space-between;
+  position: sticky;
+}
 .user-info {
   display: grid;
   grid-auto-flow: column;
@@ -15,6 +21,7 @@ header {
 }
 .nav-link {
   height: 100%;
+  overflow: visible;
 }
 nav {
   display: grid;
@@ -33,7 +40,16 @@ nav a:hover .nav-link {
 #root {
   display: grid;
   grid-auto-flow: column;
+  justify-content: center;
+  gap: 27px;
   width: 100%;
   height: 100vh;
   padding: 0px 470px;
+}
+.main-container::-webkit-scrollbar {
+  display: none;
+}
+.post-text-content {
+  word-break: break-all;
+  height: fit-content;
 }
