@@ -32,7 +32,10 @@ export function Header({ user }: Props) {
           </Link>
         </div>
         <div className="  w-full h-16  rounded-full my-3 hover:bg-[#e7e7e8] cursor-pointer">
-          <div className="p-3 h-full grid grid-flow-col">
+          <Link
+            to={`/${user.username}`}
+            className="p-3 h-full grid grid-flow-col"
+          >
             <div>
               <img
                 src={`${user.profile}`}
@@ -49,7 +52,7 @@ export function Header({ user }: Props) {
             <div className="w-full grid place-items-center">
               <MoreDots />
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     </header>
