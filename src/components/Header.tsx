@@ -8,7 +8,7 @@ type Props = {
 
 export function Header({ user }: Props) {
   return (
-    <header className="grid  px-[12px] w-[251px] h-[100vh] sticky">
+    <header className="grid  px-[12px]  h-[100vh] sticky">
       <div className="what grid  ">
         <div className="w-full ">
           <div className="logo-container h-[52px]">
@@ -20,18 +20,15 @@ export function Header({ user }: Props) {
             </Link>
           </div>
           <Navitems />
-          <Link
-            to="adsa"
-            className="grid place-items-center my-4 mt-8 h-12 w-[90%] bg-headerPrimary rounded-full text-center hover:bg-[#1a8cd8]"
-          >
+          <div className="grid place-items-center my-4 mt-8 h-12 w-[90%] bg-headerPrimary rounded-full text-center hover:bg-[#1a8cd8] tweet-button">
             <div className=" ">
               <span className=" text-white font-roboto font-bold tracking-wide">
                 Tweet
               </span>
             </div>
-          </Link>
+          </div>
         </div>
-        <div className="  w-full h-16  rounded-full my-3 hover:bg-[#e7e7e8] cursor-pointer">
+        <div className="  w-full h-16  rounded-full my-3 hover:bg-[#e7e7e8] cursor-pointer profile-item-container">
           <Link
             to={`/${user.username}`}
             className="p-3 h-full grid grid-flow-col"
@@ -43,13 +40,13 @@ export function Header({ user }: Props) {
                 className="h-10 w-10 rounded-full"
               />
             </div>
-            <div>
+            <div className="profile-item">
               <div className="grid align-items-center mr-3">
                 <span className="text-[14px] font-bold">{user.username}</span>
                 <span className="text-[14px] ">@{user.username}</span>
               </div>
             </div>
-            <div className="w-full grid place-items-center">
+            <div className="w-full grid place-items-center profile-item">
               <MoreDots />
             </div>
           </Link>
